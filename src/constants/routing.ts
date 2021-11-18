@@ -234,6 +234,8 @@ export const ADDITIONAL_BASES: {
     [DOLA.address]: [INV],
   },
   [ChainId.MATIC]: {
+    [MATIC.POLYFRAX.address]: [MATIC.POLYFXS],
+    [MATIC.POLYFXS.address]: [MATIC.POLYFRAX],
     [MATIC.FRAX.address]: [MATIC.FXS],
     [MATIC.FXS.address]: [MATIC.FRAX],
     [MATIC.DRAX.address]: [MATIC.DMAGIC],
